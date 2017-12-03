@@ -1,0 +1,1 @@
+from scrapy import cmdlineimport os# cmdline.execute('scrapy crawl boss'.split())os.chdir('lagou/spiders')#运行分布式爬虫命令cmdline.execute('scrapy runspider LaGou.py'.split())
